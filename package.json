@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "next": "14.2.18",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "description": "Relay \u2014 an AI-enhanced team workspace. Channels, threads, DMs, and a local/demo AI assistant that can be swapped for OpenAI.",
+  "devDependencies": {
+    "@types/node": "20.14.12",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.40",
+    "tailwindcss": "3.4.10",
+    "typescript": "5.5.4"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "name": "relay",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "version": "0.1.0"
+}
